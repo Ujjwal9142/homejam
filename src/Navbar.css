@@ -1,0 +1,67 @@
+.navbar {
+  position: fixed;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  padding: 2px 124px 2px 140px;
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
+}
+
+.navbar_colored {
+  background-color: black;
+}
+
+.other_compo {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  width: 38%;
+  margin-right: 20px;
+}
+
+.search {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+
+.search img {
+  height: 12px;
+  width: 13px;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+
+.search p {
+  font-size: 15px;
+}
+
+.search2 {
+  height: 12px;
+  width: 13px;
+  margin-top: 17px;
+}
+
+.cart {
+  height: 14px;
+  width: 16px;
+  margin-top: 18px;
+}
+
+.hamburger {
+  height: 22px;
+  width: 16px;
+  margin-top: 18px;
+}
+
+.help,
+.account {
+  margin-top: 16px;
+  font-size: 15px;
+}
+
+.homejam {
+  margin-top: 3px;
+}

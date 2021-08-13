@@ -1,0 +1,47 @@
+.upcoming {
+  width: 80%;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 90px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0px;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  font-family: Libre Baskerville;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 40px;
+  align-items: center;
+  color: #ffffff;
+  margin: 0 0 8px 0;
+}
+
+.upcoming hr {
+  background-color: #0259eb;
+  width: 48px;
+  height: 3px;
+  border-width: 0;
+  margin: 0;
+}
+
+.upcoming p {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  color: #e5c558;
+  margin-top: 20px;
+}

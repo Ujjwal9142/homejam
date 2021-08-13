@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Nunito&family=Open+Sans&display=swap");
+.banner {
+  height: 502px;
+  background: linear-gradient(
+      180deg,
+      rgba(5, 11, 20, 0.28) 0%,
+      rgba(1, 13, 32, 0.69) 67.53%,
+      #0a0b1a 85.33%
+    ),
+    url("./assets/bg_img.png");
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  padding: 248px 150px 0 150px;
+  background-position: center center;
+  background-size: cover;
+  object-fit: contain;
+  width: 80%;
+}
+
+.grand {
+  display: flex;
+  justify-content: flex-start;
+  font-family: "Libre Baskerville";
+  font-weight: bold;
+  color: white;
+  margin-bottom: 25px;
+  font-size: 40px;
+}
+
+.banner_desc1,
+.banner_desc2 {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 32px;
+  color: #ffffff;
+  opacity: 0.6;
+  margin: 0;
+  display: flex;
+}
